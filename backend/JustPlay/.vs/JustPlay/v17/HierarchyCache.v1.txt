@@ -1,0 +1,229 @@
+﻿++Solution 'JustPlay' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:JustPlay.sln
+++JustPlayTests
+i:{00000000-0000-0000-0000-000000000000}:JustPlayTests
+++Dependencies
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>17156
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>17029
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77461
+++VideogamesControllerTests.cs
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:d:\programmazione\justplay\backend\justplay\justplaytests\videogamescontrollertests.cs
+++Analyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:analyzers
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:analyzers
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:analyzers
+++Frameworks
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:frameworks
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:frameworks
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:frameworks
+++Packages
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:packages
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:packages
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:packages
+++Projects
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:projects
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:projects
+++Microsoft.CodeAnalysis.Analyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\users\alberto\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\users\alberto\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\users\alberto\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\users\alberto\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++xunit.analyzers
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:c:\users\alberto\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++Microsoft.NETCore.App
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:d:\programmazione\justplay\backend\justplay\justplaytests\microsoft.netcore.app
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\microsoft.netcore.app
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\microsoft.netcore.app
+++coverlet.collector (3.0.2)
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>77496
+++Microsoft.NET.Test.Sdk (16.9.4)
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>77487
+++Moq (4.17.2)
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>77494
+++xunit (2.4.1)
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>77489
+++xunit.runner.visualstudio (2.4.3)
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:>77492
+++JustPlay
+i:{5ccf9947-a506-48c4-b9d2-d558db724181}:d:\programmazione\justplay\backend\justplay\justplay\bin\debug\net5.0\justplay.dll
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplay\justplay.csproj
+i:{00000000-0000-0000-0000-000000000000}:JustPlay
+++JustPlayIntegrationTests
+i:{00000000-0000-0000-0000-000000000000}:JustPlayIntegrationTests
+++Drivers
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\drivers\
+++Features
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\features\
+++VideogamesController.feature
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\features\videogamescontroller.feature
+++StepDefinitions
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\stepdefinitions\
+++VideogamesControllerStepDefinitions.cs
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\stepdefinitions\videogamescontrollerstepdefinitions.cs
+++Support
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\support\
+++ImplicitUsings.cs
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\implicitusings.cs
+++VideogamesController.feature.cs
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:d:\programmazione\justplay\backend\justplay\justplayintegrationtests\features\videogamescontroller.feature.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.Extensions.Logging.Generators
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++FluentAssertions (6.2.0)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77510
+++Microsoft.NET.Test.Sdk (17.0.0)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77508
+++NUnit (3.13.2)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77511
+++NUnit3TestAdapter (4.1.0)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77512
+++SpecFlow (3.9.69)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77509
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77491
+++SpecFlow.NUnit (3.9.40)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77513
+++SpecFlow.Plus.LivingDocPlugin (3.9.57)
+i:{892692fc-0634-4789-9bfe-23f6ee7f666d}:>77514
+++Connected Services 
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77462
+++Properties
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\properties\
+++launchSettings.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\properties\launchsettings.json
+++ClientApp
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\
+++Controllers
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\controllers\
+++VideogamesController.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\controllers\videogamescontroller.cs
+++Data
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\
+++Models
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\models\
+++User.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\models\user.cs
+++Videogame.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\models\videogame.cs
+++Repository
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\repository\
+++DataRepository.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\repository\datarepository.cs
+++IDataRepository.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\repository\idatarepository.cs
+++DbInitializer.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\dbinitializer.cs
+++JustPlayContext.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\data\justplaycontext.cs
+++.gitignore
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\.gitignore
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\.gitignore
+++appsettings.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\appsettings.json
+++Program.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\program.cs
+++Startup.cs
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\startup.cs
+++No service dependencies discovered
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77463
+++Microsoft.AspNetCore.Analyzers
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\microsoft.aspnetcore.app
+++Magenic.Maqs.SpecFlow (7.0.6)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77495
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (5.0.16)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77493
+++Microsoft.AspNetCore.SpaServices.Extensions (5.0.16)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77497
+++Microsoft.EntityFrameworkCore (5.0.16)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77488
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.15)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77490
+++Microsoft.EntityFrameworkCore.Tools (5.0.15)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77498
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:>77499
+++public
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\public\
+++src
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\
+++.env
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\.env
+++.eslintrc.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\.eslintrc.json
+++package.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\package.json
+++README.md
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\readme.md
+++tsconfig.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\tsconfig.json
+++appsettings.Development.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\appsettings.development.json
+++favicon.ico
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\public\favicon.ico
+++index.html
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\public\index.html
+++manifest.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\public\manifest.json
+++components
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\
+++store
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\store\
+++App.test.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\app.test.tsx
+++App.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\app.tsx
+++custom.css
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\custom.css
+++index.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\index.tsx
+++react-app-env.d.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\react-app-env.d.ts
+++registerServiceWorker.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\registerserviceworker.ts
+++package-lock.json
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\package-lock.json
+++Counter.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\counter.tsx
+++FetchData.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\fetchdata.tsx
+++Home.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\home.tsx
+++Layout.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\layout.tsx
+++NavMenu.css
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\navmenu.css
+++NavMenu.tsx
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\components\navmenu.tsx
+++configureStore.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\store\configurestore.ts
+++Counter.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\store\counter.ts
+++index.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\store\index.ts
+++WeatherForecasts.ts
+i:{0f807165-3add-42bf-ae91-e007cd6edfc1}:d:\programmazione\justplay\backend\justplay\justplay\clientapp\src\store\weatherforecasts.ts

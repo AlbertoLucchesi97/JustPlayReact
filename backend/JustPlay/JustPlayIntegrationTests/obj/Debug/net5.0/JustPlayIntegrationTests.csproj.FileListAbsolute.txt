@@ -1,0 +1,5 @@
+D:\Programmazione\JustPlay\backend\JustPlay\JustPlayIntegrationTests\obj\Debug\net5.0\JustPlayIntegrationTests.csproj.AssemblyReference.cache
+D:\Programmazione\JustPlay\backend\JustPlay\JustPlayIntegrationTests\obj\Debug\net5.0\JustPlayIntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmazione\JustPlay\backend\JustPlay\JustPlayIntegrationTests\obj\Debug\net5.0\JustPlayIntegrationTests.AssemblyInfoInputs.cache
+D:\Programmazione\JustPlay\backend\JustPlay\JustPlayIntegrationTests\obj\Debug\net5.0\JustPlayIntegrationTests.AssemblyInfo.cs
+D:\Programmazione\JustPlay\backend\JustPlay\JustPlayIntegrationTests\obj\Debug\net5.0\JustPlayIntegrationTests.csproj.CoreCompileInputs.cache

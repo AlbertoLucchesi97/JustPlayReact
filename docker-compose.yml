@@ -1,0 +1,78 @@
+version: "3.7"
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@ssw0rd2022"
+      MSSQL_PID: "Express"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "/opt/mssql-tools/bin/sqlcmd",
+          "-Slocalhost",
+          "-Usa",
+          "-P${SA_PASSWORD}",
+          "-Q",
+          "CREATE DATABASE [JustPlay]",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    ports:
+      - "1433:1433"
+    networks:
+      - backend
+  justplaybackend:
+    build: ./backendjava
+    image: albertolucchesi/justplaybackend
+    environment:
+      DBServer: "ms-sql-server"
+    ports:
+      - "8080:8080"
+      # 44317
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/videogames"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    depends_on:
+      ms-sql-server:
+        condition: service_healthy
+    networks:
+      - backend
+  justplayfrontend:
+    build: ./frontendangular
+    volumes:
+      - ./frontend/config:/app/src/config
+    ports:
+      - "3000:3000"
+    depends_on:
+      - justplaybackend
+    networks:
+      - backend
+  powershell-runner:
+    image: mcr.microsoft.com/powershell:latest
+    container_name: powershell-runner
+    restart: "no"
+    networks:
+      - backend
+    volumes:
+      - ./scripts:/scripts
+    command:
+      [
+        "pwsh",
+        "-File",
+        "/scripts/insertDataIntoDb.ps1",
+        "-Hostname",
+        "host.docker.internal",
+      ]
+    depends_on:
+      justplaybackend:
+        condition: service_healthy
+networks:
+  backend:
+    driver: bridge
+    ipam:
+      driver: default
