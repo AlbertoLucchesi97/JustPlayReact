@@ -1,4 +1,4 @@
-export const server = 'http://localhost:8080';
+export const server = 'https://localhost:44317';
 export const webAPIUrl = `${server}/api`;
 
 export const authSettings = {

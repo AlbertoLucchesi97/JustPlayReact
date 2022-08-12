@@ -81,7 +81,7 @@ export const AuthProvider: React.FC<Props> = ({ children }) => {
         signOut: () =>
           getAuth0ClientFromState().logout({
             client_id: authSettings.client_id,
-            returnTo: window.location.origin + '/signout-callback',
+            returnTo: window.location.origin,
           }),
         loading,
       }}

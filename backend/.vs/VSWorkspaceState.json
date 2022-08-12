@@ -3,10 +3,9 @@
     "",
     "\\JustPlay",
     "\\JustPlay\\JustPlay",
-    "\\JustPlay\\JustPlayTests",
     "\\JustPlay\\JustPlay\\Controllers",
     "\\JustPlay\\JustPlay\\Data"
   ],
-  "SelectedNode": "\\JustPlay\\JustPlay\\Controllers\\UsersController.cs",
+  "SelectedNode": "\\JustPlay\\JustPlay\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

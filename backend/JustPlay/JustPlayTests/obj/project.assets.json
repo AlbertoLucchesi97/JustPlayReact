@@ -12206,11 +12206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
+      "projectUniqueName": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
       "projectName": "JustPlayTests",
-      "projectPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
+      "projectPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayTests\\obj\\",
+      "outputPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12230,8 +12230,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlay\\JustPlay.csproj": {
-              "projectPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlay\\JustPlay.csproj"
+            "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlay\\JustPlay.csproj": {
+              "projectPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlay\\JustPlay.csproj"
             }
           }
         }

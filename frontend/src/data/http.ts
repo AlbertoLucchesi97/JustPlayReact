@@ -18,8 +18,8 @@ export const http = async <ResponseBody, RequestBody = undefined>(
 ): Promise<HttpResponse<ResponseBody>> => {
   // load a json file
 
-  const url = settings.apiUrl;
-  //const url = webAPIUrl;
+  //const url = settings.apiUrl;
+  const url = webAPIUrl;
 
   const request = new Request(`${url}${config.path}`, {
     method: config.method || 'GET',

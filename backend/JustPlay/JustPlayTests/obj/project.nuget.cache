@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WqbqNQ3O3MAI80pNt9+XX6Ch1vID0hZAxHIJoBZ2yuRFWwxLcEO/3x+GtcYvbRmIoqOpqc9ewrRBXlMMA416LQ==",
+  "dgSpecHash": "UFZNN6kRgznUaYPvOEdRJI8BijLFtSCHOssy7aBjj3EX/2aWr2+Of7AEwjRjyipICp3ok152GcDOpRZbMTKEJw==",
   "success": true,
-  "projectFilePath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
+  "projectFilePath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayTests\\JustPlayTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\appium.webdriver\\5.0.0-beta01\\appium.webdriver.5.0.0-beta01.nupkg.sha512",

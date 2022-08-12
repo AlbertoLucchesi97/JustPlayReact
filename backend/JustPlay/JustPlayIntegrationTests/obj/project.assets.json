@@ -12232,11 +12232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayIntegrationTests\\JustPlayIntegrationTests.csproj",
+      "projectUniqueName": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayIntegrationTests\\JustPlayIntegrationTests.csproj",
       "projectName": "JustPlayIntegrationTests",
-      "projectPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayIntegrationTests\\JustPlayIntegrationTests.csproj",
+      "projectPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayIntegrationTests\\JustPlayIntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlayIntegrationTests\\obj\\",
+      "outputPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlayIntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12256,8 +12256,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlay\\JustPlay.csproj": {
-              "projectPath": "D:\\Programmazione\\JustPlay\\backend\\JustPlay\\JustPlay\\JustPlay.csproj"
+            "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlay\\JustPlay.csproj": {
+              "projectPath": "D:\\Programmazione\\GitHub\\JustPlayReact\\backend\\JustPlay\\JustPlay\\JustPlay.csproj"
             }
           }
         }
