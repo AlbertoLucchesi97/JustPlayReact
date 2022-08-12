@@ -27,7 +27,7 @@ services:
       - backend
   justplaybackend:
     build: ./backend
-    image: testbackendimage
+    image: albertolucchesi/backendcsharp
     environment:
       DBServer: "ms-sql-server"
     ports:
