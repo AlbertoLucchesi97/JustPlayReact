@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   ms-sql-server:
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "P@ssw0rd2022"
@@ -19,58 +19,33 @@ services:
         ]
       interval: 10s
       timeout: 5s
+      start_period: 30s
       retries: 3
     ports:
       - "1433:1433"
     networks:
       - backend
   justplaybackend:
-    build: ./backendjava
-    image: albertolucchesi/justplaybackend
+    build: ./backend
+    image: testbackendimage
     environment:
       DBServer: "ms-sql-server"
     ports:
-      - "8080:8080"
-      # 44317
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/api/videogames"]
-      interval: 10s
-      timeout: 3s
-      retries: 5
+      - "8080:80"
     depends_on:
       ms-sql-server:
         condition: service_healthy
     networks:
       - backend
   justplayfrontend:
-    build: ./frontendangular
-    volumes:
-      - ./frontend/config:/app/src/config
+    build: ./frontend
+    image: albertolucchesi/frontendreact
     ports:
       - "3000:3000"
     depends_on:
       - justplaybackend
     networks:
       - backend
-  powershell-runner:
-    image: mcr.microsoft.com/powershell:latest
-    container_name: powershell-runner
-    restart: "no"
-    networks:
-      - backend
-    volumes:
-      - ./scripts:/scripts
-    command:
-      [
-        "pwsh",
-        "-File",
-        "/scripts/insertDataIntoDb.ps1",
-        "-Hostname",
-        "host.docker.internal",
-      ]
-    depends_on:
-      justplaybackend:
-        condition: service_healthy
 networks:
   backend:
     driver: bridge

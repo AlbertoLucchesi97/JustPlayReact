@@ -22,7 +22,6 @@ namespace JustPlay.Controllers
         [HttpGet]
         public async Task<IEnumerable<Videogame>> GetAllVideogames(string? search, string? sort)
         {
-
             try
             {
                 if (string.IsNullOrEmpty(search))

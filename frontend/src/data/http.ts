@@ -18,8 +18,11 @@ export const http = async <ResponseBody, RequestBody = undefined>(
 ): Promise<HttpResponse<ResponseBody>> => {
   // load a json file
 
-  //const url = settings.apiUrl;
-  const url = webAPIUrl;
+  // for Docker use
+  const url = settings.apiUrl;
+
+  //for local use
+  //const url = webAPIUrl;
 
   const request = new Request(`${url}${config.path}`, {
     method: config.method || 'GET',

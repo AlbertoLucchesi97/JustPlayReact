@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace JustPlay.Data
 {
@@ -11,9 +12,11 @@ namespace JustPlay.Data
     {
         public static void InitializePopulation(IApplicationBuilder app)
         {
+            Console.Write("Hello from InitializePopulation!");
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
                 SeedData(serviceScope.ServiceProvider.GetService<JustPlayContext>());
+                Console.Write("Data: seeded");
             }
         }
 
@@ -180,43 +183,5 @@ namespace JustPlay.Data
                 System.Console.WriteLine("Already have videogames wishlist data - not seeding");
             }
         }
-            
-        //public static void Initialize(JustPlayContext context)
-        //{
-        //    context.Database.EnsureCreated();
-
-        //    if (context.Videogames.Any())
-        //    {
-        //        return;
-        //    }
-
-            
-        
-
-        //    foreach (Videogame videogame in videogames)
-        //    {
-        //        context.Videogames.Add(videogame);
-        //    }
-        //    context.SaveChanges();
-
-        //    foreach (User user in users)
-        //    {
-        //        context.Users.Add(user);
-        //    }
-        //    context.SaveChanges();
-
-        //    foreach (VideogameOwned videogameOwned in videogamesOwned)
-        //    {
-        //        context.VideogamesOwned.Add(videogameOwned);
-        //    }
-        //    context.SaveChanges();
-
-        //    foreach (VideogameWishlist videogameWishlist in videogamesWishlist)
-        //    {
-        //        context.VideogamesWishlist.Add(videogameWishlist);
-        //    }
-
-        //    context.SaveChanges();
-        //}
     }
 }

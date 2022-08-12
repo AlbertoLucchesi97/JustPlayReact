@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
 using JustPlay.Authorization;
 using JustPlay.Data.Repository;
+using System;
 
 namespace JustPlay
 {
@@ -26,10 +27,20 @@ namespace JustPlay
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var server = Configuration["DBServer"] ?? "localhost";
+            //for local use
+
+            // var server = Configuration["DBServer"] ?? "localhost";
+            // var port = Configuration["DBPort"] ?? "1433";
+            // var user = Configuration["DBUser"] ?? "sa";
+            // var password = Configuration["DBPassword"] ?? "sa";
+            // var database = Configuration["Database"] ?? "JustPlay";
+
+            //for docker use
+
+            var server = Configuration["DBServer"] ?? "host.docker.internal";
             var port = Configuration["DBPort"] ?? "1433";
             var user = Configuration["DBUser"] ?? "sa";
-            var password = Configuration["DBPassword"] ?? "sa";
+            var password = Configuration["DBPassword"] ?? "P@ssw0rd2022";
             var database = Configuration["Database"] ?? "JustPlay";
 
             services.AddDbContext<JustPlayContext>(
@@ -44,7 +55,6 @@ namespace JustPlay
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -53,7 +63,6 @@ namespace JustPlay
                     .AllowAnyHeader()
                     .WithOrigins(Configuration["Frontend"]));
             });
-
             this.ConfigureAuth(services);
             services.AddHttpClient();
             services.AddAuthorization(options =>
@@ -97,11 +106,9 @@ namespace JustPlay
             {
                 spa.Options.SourcePath = "ClientApp";
 
-                if (env.IsDevelopment())
-                {
-                    spa.UseReactDevelopmentServer(npmScript: "start");
-                }
+                spa.UseReactDevelopmentServer(npmScript: "start");
             });
+
         }
 
         public virtual void ConfigureAuth(IServiceCollection services)
