@@ -11,7 +11,7 @@ Inoltre, se l'utente ha fatto il login e dispone dei permessi, è possibile aggi
 - C#
 - SQL Server
 ## Setup
-Nella repository è presente un docker compose, che si occuperà di far partire il progetto in maniera ottimale. Per avviare il progetto in questo modo è necessario avere Docker installato e poi aprire il terminale Powershell nella cartella generale della repository e scrivere "docker-compose up -d". In questo modo verranno scaricate automaticamente le immagini e il progetto verrà caricato nei container. Andando all'indirizzo "localhost" sul browser sarà possibile interagire con il progetto.
+Nella repository è presente un docker compose, che si occuperà di far partire il progetto in maniera ottimale. Per avviare il progetto in questo modo è necessario avere Docker installato e poi aprire il terminale Powershell nella cartella generale della repository e scrivere "docker-compose up -d". In questo modo verranno scaricate automaticamente le immagini e il progetto verrà caricato nei container. Andando all'indirizzo "localhost:3000" sul browser sarà possibile interagire con il progetto.
 
 #### Importante:
 Per testare le funzioni da admin fare l'accesso con i seguenti dati: 
